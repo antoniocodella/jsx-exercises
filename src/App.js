@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-const hello = <h1>Hello, World!</h1>;
+function greeting(name) {
+  return <h1>Hello {name}</h1>;
+}
 
 function App() {
   return (
